@@ -1,0 +1,18 @@
+{
+	"name": "ms01con1Bronze",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "msyn-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Bronze",
+				"fileSystem": "con1"
+			}
+		}
+	}
+}
